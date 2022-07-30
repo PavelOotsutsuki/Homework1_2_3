@@ -10,7 +10,10 @@ namespace Homework1_2_3
     {
         static void Main(string[] args)
         {
-            for (int i=5;i<100;i+=7)
+            int exitCondition = 100;
+            int step=7;
+
+            for (int i=5;i<exitCondition; i+=step)
             {
                 Console.Write(i+" ");
             }
